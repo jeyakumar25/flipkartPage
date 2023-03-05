@@ -1,0 +1,221 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f1f3f6;
+}
+
+#navBar div {
+    display: inline-block;
+}
+
+#navBar {
+    background-color: #027bd4;
+    padding: 5px 100px;
+}
+
+#logo img {
+    width: 150px;
+    height: auto;
+    padding: 3px;
+    border: 0;
+    margin-bottom: -18px;
+}
+
+#searchButton input {
+    padding: 3px;
+    border: 2px solid white;
+    width: 465px;
+    height: 27px;
+    margin: 0 52px 0 0;
+}
+
+#loginButton button {
+    padding: 2px 3px;
+    border: 2px solid white;
+    color: #027bd4;
+    font-weight: 700;
+    font-size: medium;
+    width: 120px;
+    height: 32px;
+    margin: 10px;
+}
+
+#loginButton button:hover {
+    cursor: pointer;
+}
+
+#navLinks {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#navLinks li {
+    display: inline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#navLinks li a {
+    color: white;
+    text-decoration: none;
+    margin: 2px 8px;
+    padding: 3px 15px;
+    font-weight: 700;
+    font-size: medium;
+}
+
+#categoryLinks {
+    background-color: white;
+    border-bottom: 2px solid #8080805e;
+}
+
+#categoryLinksList {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 109px;
+    border: 0;
+}
+
+#categoryLinksList li {
+    display: inline-block;
+    margin: 0 5px;
+    padding: 0 15px;
+    border: 0;
+}
+
+#categoryLinksList li a {
+    color: black;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#categoryLinksList li a p {
+    display: block;
+    margin: 2px 0;
+    text-align: center;
+    font-weight: 500;
+}
+
+#categoryLinksList li a img {
+    display: block;
+    width: 65px;
+    height: 75px;
+    margin: 0 auto;
+}
+
+#scroll {
+    background-color: #a2d7ff;
+    margin: 10px 5px 5px 5px;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+#scroll div {
+    display: inline-block;
+    width: 49%;
+    height: auto;
+}
+
+#microsoft365Logo img {
+    width: 445px;
+    height: auto;
+    padding: 0 0 0 150px;
+}
+
+#windows11Logo {
+    width: 200px;
+    height: auto;
+}
+
+.content {
+    font-weight: 500;
+    font-size: x-large;
+    margin: 49px 0 0 0
+}
+
+.content span {
+    display: block;
+}
+
+.shopNowButton {
+    background-color: #a2d7ff;
+    border: 0;
+    cursor: pointer;
+    font-size: x-large;
+    font-weight: 900;
+    padding: 5px 0;
+    margin: 30px 0 0 0;
+}
+
+#products {
+    margin: 10px 5px;
+    background-color: white;
+    padding: 5px;
+}
+
+#products div {
+    display: inline-block;
+    padding:  10px 10px 0 10px;
+}
+
+#products h3 {
+    margin: 0 0 25px 0;
+    display: block;
+    text-align: center;
+    font-size: x-large;
+    font-weight: 400;
+}
+
+#products button {
+    border: 0;
+    display: block;
+    background-color: #027bd4;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    padding: 9px 15px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+#products img {
+    border: 0;
+    width: 200px;
+    height: auto;
+    margin: 20px 0 0 0;
+}
+
+#productsList {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+#productsList li {
+    display: inline-block;
+    margin: 0;
+    padding: 5px 2px;
+}
+
+#productsList li a {
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+#productsList li a img {
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+#productsList li a p {
+    display: block;
+    margin: 8px 3px;
+    text-align: center;
+    font-weight: 600;
+}
